@@ -140,3 +140,37 @@ main {
     cursor: pointer;
     box-shadow: 1px 1px 0px 0px black;
 }
+/* todo the tracks section  */
+.tracks-cards{
+  margin: 3rem 0 0 0;
+}
+.tracks-cards h3{
+  color: var(--main-color);
+}
+.card{
+  border: 1px solid #f6f1ed;
+  padding: 1rem 1rem 1rem 1rem;
+  box-shadow: 3px 4px 0px 0px #f6f1ed;
+  margin: 2rem 0 0 0 ;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1rem;
+}
+.card h2{
+  color: #f6f1ed;
+  margin: 0 0 0.6rem 0;
+}
+.card p{
+  color: rgb(186, 175, 175);
+}
+.color1 h2{
+  color: #ebcdce;
+}
+.color2 h2{
+  color: #afcbec;
+}
+.color3 h2{
+  color: #58637d;
+}
